@@ -1,0 +1,14 @@
+name: 'AWS Secure Access'
+description: 'Perform AWS Secure Access operations'
+author: 'Your Name'
+inputs:
+  aws-access-key-id:
+    description: 'AWS Access Key ID'
+    required: true
+  aws-secret-access-key:
+    description: 'AWS Secret Access Key'
+    required: true
+  # Add other input parameters as needed
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
